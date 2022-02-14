@@ -1,0 +1,13 @@
+Assignment-1:
+-------------------------
+#Find the number of digits in a given number.
+n=int(input("Enter number:"))
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print('No. of digits in entered number: ',count)
+O/p:
+--------
+Enter a number:99999
+No. of digits in entered number:  5
